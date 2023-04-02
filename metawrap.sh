@@ -19,7 +19,7 @@ module load miniconda3/4.7.12.1
 module load samtools/1.12
 
 filename="ERR1713378"
-#anvi-script-reformat-fasta ./"$filename"_megahit/final.contigs.fa -o "$filename".reformat_contigs.fa -l 1000 --simplify-names
+anvi-script-reformat-fasta ./"$filename"_megahit/final.contigs.fa -o "$filename".reformat_contigs.fa -l 1000 --simplify-names
 gunzip "$filename"_trim_paired_1.fastq.gz
 gunzip "$filename"_trim_paired_2.fastq.gz
 metawrap binning -o "$filename"_metawrap -t 64 -a "$filename".reformat_contigs.fa --metabat2 --maxbin2 "$filename"_trim_paired_*.fastq
