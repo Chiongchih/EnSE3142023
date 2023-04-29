@@ -6,7 +6,7 @@
 #SBATCH -e %x.%J.err
 #SBATCH --mail-user=changzhi.wang@kaust.edu.sa
 #SBATCH --mail-type=ALL
-#SBATCH --time=3-00:00:00
+#SBATCH --time=24:00:00
 #SBATCH --mem=30G
 #SBATCH -c 16
 
