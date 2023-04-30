@@ -4,7 +4,6 @@
 #SBATCH -J GTDB
 #SBATCH -o %x.%J.out
 #SBATCH -e %x.%J.err
-#SBATCH --mail-user=changzhi.wang@kaust.edu.sa
 #SBATCH --mail-type=ALL
 #SBATCH --time=2:00:00
 #SBATCH --mem=300G
