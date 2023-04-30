@@ -12,6 +12,6 @@
 
 #run the application:
 module load megahit/1.2.9
-name="ERR1713358"
+name="ERR1713378"
 megahit -1 "$name"_trim_paired_1.fastq.gz -2 "$name"_trim_paired_2.fastq.gz -o "$name"_megahit -t 16 
 
