@@ -4,9 +4,8 @@
 #SBATCH -J assembly
 #SBATCH -o %x.%J.out
 #SBATCH -e %x.%J.err
-#SBATCH --mail-user=changzhi.wang@kaust.edu.sa
 #SBATCH --mail-type=ALL
-#SBATCH --time=12:00:00
+#SBATCH --time=8:00:00
 #SBATCH --mem=200G
 #SBATCH -c 16
 
