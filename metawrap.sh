@@ -1,12 +1,11 @@
 #!/bin/bash
 #SBATCH -N 1
 #SBATCH --partition=batch
-#SBATCH -J Metawrap78
+#SBATCH -J Metawrap
 #SBATCH -o %x.%J.out
 #SBATCH -e %x.%J.err
-#SBATCH --mail-user=changzhi.wang@kaust.edu.sa
 #SBATCH --mail-type=ALL
-#SBATCH --time=24:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mem=100G
 #SBATCH -c 64
 
